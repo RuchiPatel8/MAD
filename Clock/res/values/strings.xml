@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Reminder</string>
+    <string name="btn_select_date">Select Date</string>
+    <string name="btn_set_reminder">Set Reminder</string>
+    <string name="no_reminder_set">No reminder set</string>
+    <string name="reminder_channel_name">Reminder Channel</string>
+    <string name="reminder_title">Reminder!</string>
+    <string name="reminder_content">Your scheduled reminder is here.</string>
+</resources>
