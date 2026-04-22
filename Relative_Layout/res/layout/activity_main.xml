@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:text="Student Form"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/name"
+        android:hint="Enter Name"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/email"
+        android:hint="Enter Email"
+        android:layout_below="@id/name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Phone -->
+    <EditText
+        android:id="@+id/phone"
+        android:hint="Enter Phone"
+        android:layout_below="@id/email"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitBtn"
+        android:text="Submit"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
