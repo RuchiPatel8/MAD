@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".NotesActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/dance_primary"
+        app:title="Select Level"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llButtonsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Buttons will be dynamically added or statically defined -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_prarambhik"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_praveshika_pratham"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_praveshika_poorna"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_madhyama_pratham"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel5"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_madhyama_poorna"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel6"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/level_visharada_pratham"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLevel7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/level_visharada_poorna"
+                app:cornerRadius="12dp"
+                android:textColor="@color/dance_primary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

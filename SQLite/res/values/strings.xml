@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dance Notes</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notes">Notes</string>
+    <string name="pyqs">PYQs</string>
+    <string name="quiz">Quiz</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="submit">Submit</string>
+    
+    <!-- Levels -->
+    <string name="level_prarambhik">Prarambhik</string>
+    <string name="level_praveshika_pratham">Praveshika Pratham</string>
+    <string name="level_praveshika_poorna">Praveshika Poorna</string>
+    <string name="level_madhyama_pratham">Madhyama Pratham</string>
+    <string name="level_madhyama_poorna">Madhyama Poorna</string>
+    <string name="level_visharada_pratham">Visharada Pratham</string>
+    <string name="level_visharada_poorna">Visharada Poorna</string>
+</resources>
